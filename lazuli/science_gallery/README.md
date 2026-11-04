@@ -1,6 +1,6 @@
 # Lazuli science gallery
 
-Eleven science-case notebooks that ask one question each of a Lazuli instrument and answer it with
+Twelve science-case notebooks that ask one question each of a Lazuli instrument and answer it with
 a hero figure. They started life in `lazuli/esc/` but span all three instruments; the hands-on
 tutorials for each instrument are in `lazuli/ifs/tutorial/`, `lazuli/wcc/tutorial/` and
 `lazuli/esc/tutorial/`. Each notebook opens with a prompt to try in Jupyter AI.
@@ -18,6 +18,7 @@ tutorials for each instrument are in `lazuli/ifs/tutorial/`, `lazuli/wcc/tutoria
 | [09](09_tde_in_galaxy_nuclei.ipynb) | WCC | `wcc_etc` | Can the WCC detect a faint nuclear transient on a bright bulge? |
 | [10](10_precision_transit_photometry.ipynb) | WCC | `wcc_etc` | How precise is WCC photometry on bright stars, and could it catch an Earth transiting an M dwarf? |
 | [11](11_crowded_field_photometry.ipynb) | WCC | `wcc_sim` + `wcc_phot` | How does crowding in the M4 core limit WCC photometric precision? |
+| [12](12_he10830_transient_ifs_vs_wcc.ipynb) | IFS + WCC | `slicersim` + `wcc_etc` | How precisely can a 1-minute He I 10830 Å emission flash on a Sun-like star be measured with the IFS, or with a new 5 nm filter on the WCC qCMOS? |
 
 The two ESC science cases (reflected-light RV giants, exozodi tolerance) are in
 `lazuli/esc/tutorial/backup/`, where they seed the ESC exercises.
